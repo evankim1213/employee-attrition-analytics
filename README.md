@@ -1,6 +1,9 @@
-## Context: HR attrition has become quite a challenge to enterprise world for several years. Employees leave company for various reasons such as: work-life-balance, motivational loss, cultural mismatch, new management, or external job opportunity. Recently, this issue has become even more critical for corporation overall. To help companies to mitigate the risk of employee attrition, this project will use machine learning techniques to 
-(1)understand key drivers of attrition and 
-(2)provide strategic insights for workforce optimization
+## Context
+Employees attrition remains a significant challenge for organizationals across industries. Employees leave company for various including workload, work-life balance, career opportunities, cultural mismatch, and organizational changes. 
+To better understand and manage attrition risk, this project applies machine learning techniques to:
+1. Predict employee attrition
+2. Identify key drivers of turnover
+3. Generate actionable insights for workforce optimization and retention strategies
 
 ## Project Overview
 - Predict employee attrition using ML models
