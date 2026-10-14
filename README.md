@@ -7,15 +7,17 @@ To better understand and manage attrition risk, this project applies machine lea
 The ultimate goal is to help organizations make informed, data-driven decisions to improve employee retention and workforce planning.
 
 ## Project Overview
-- Predict employee attrition using ML models
-- Identify key drivers of attrition
-- Provide actionable insights for workforce optimization strategy
-- Workflow:
-  1.EDA
-  2.Feature Engineering
-  3.Modeling
-  4.Evaluation
-  5.Interpretation
+- Predict employee attrition using machine learning models
+- Identify key drivers of employee attrition
+- Provide actionable insights for workforce optimization strategies
+# Workflow
+1. Exploratory Data Analysis(EDA)
+2. Feature Engineering
+3. Moedling
+4. Evaluation
+5. Interpretation
+6. External Validation
+
 
 ## Dataset
 - 14999rows, 10 columns
