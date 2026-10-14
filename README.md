@@ -13,16 +13,16 @@ The ultimate goal is to help organizations make informed, data-driven decisions 
 ### Workflow
 1. Exploratory Data Analysis(EDA)
 2. Feature Engineering
-3. Moedling
-4. Evaluation
-5. Interpretation
-6. External Validation
-
+3. Modeling
+4. Model Evaluation
+5. Model Interpretation(PDP&SHAP)
+6. Business Insights
+7. External Validation
 
 ## Dataset
-- 14999rows, 10 columns
-- target: attrition (stay:0, left:1)
-- The variable 'satisfaction_level' and'last_evaluation' removed because there is no individual satisfaction_level in real-world HR systems.
+- 14,999 rows and 10 columns
+- Target variable: attrition (0=Stay, 1=Left)
+- The variable 'satisfaction_level' and'last_evaluation' were excluded from modeling because they may not be consistently available in real-world HR information systems. This decision was made to improve the practicality of the model.
 
 ## Tech Stack
 - 'data/' - HR dataset(synthetic, provided by GAAC capstone)
