@@ -23,6 +23,7 @@ The ultimate goal is to help organizations make informed, data-driven decisions 
 - 14,999 rows and 10 columns
 - Target variable: attrition (0 = Stay, 1 = Left)
 - The variables `satisfaction_level` and `last_evaluation` were excluded from modeling because they may not be consistently available in real-world HR information systems. This decision was made to improve the practicality of the model.
+- The variable 'work_accident' was also excluded as exploratory analysis suggested limited predictive value and no meaningful relationship with attrition.
 
 ## Repository Structure
 - `data/` - HR dataset(synthetic, provided by GAAC Capstone project)
