@@ -30,7 +30,7 @@ The ultimate goal is to help organizations make informed, data-driven decisions 
 - `src/` - Modularized machine learning pipeline code
 - `artifacts/` - visualizations and model outputs
 
-Tech Stack
+##Tech Stack
 - Python
 - Pandas
 - NumPy
@@ -42,11 +42,16 @@ Tech Stack
 - Google Colab
 - GitHub
 
+## Modeling Strategy: Why Recall?
+Employee attrition prediction was evaluated using a recall-focused approach.
+From a business perspective, failing to identify an employee who is likely to leave (False Negative) may result in employee replacement costs, training costs, productivity loss, and business disruption.
+Given these opportunity costs, recall was selected as the primary evaluation metric while comparing model performance.
+
 ## Key Results
-- 
--
--
--
+### Employee attrition was primarily associated with work-life balance needs and career-growth dynamics rather than department-level differences.
+- Work-life balance emerged as the strongest driver of employee attrition, supported by workload-related factors such as project volume, monthly working hours, and the engineered feature `workload_intensity'.
+- Career growth and employee lifecycle effects were also associated with attrtion risk, with tenure-related variables consistently demonstrating predictive value across analyses.
+- Employee-level factors showed stronger relationships with attrition than department-level characteristics.
 
 ## Business Impact
 - Influences to increase overall performance of company P&L through labor efficiency
