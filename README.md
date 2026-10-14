@@ -30,7 +30,7 @@ The ultimate goal is to help organizations make informed, data-driven decisions 
 - `src/` - Modularized machine learning pipeline code
 - `artifacts/` - visualizations and model outputs
 
-##Tech Stack
+## Tech Stack
 - Python
 - Pandas
 - NumPy
