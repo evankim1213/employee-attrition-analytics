@@ -22,7 +22,7 @@ The ultimate goal is to help organizations make informed, data-driven decisions 
 ## Dataset
 - 14,999 rows and 10 columns
 - Target variable: attrition (0=Stay, 1=Left)
-- The variables (satisfaction_level) and (last_evaluation) were excluded from modeling because they may not be consistently available in real-world HR information systems. This decision was made to improve the practicality of the model.
+- The variables `satisfaction_level` and `last_evaluation` were excluded from modeling because they may not be consistently available in real-world HR information systems. This decision was made to improve the practicality of the model.
 
 ## Tech Stack
 - 'data/' - HR dataset(synthetic, provided by GAAC capstone)
