@@ -21,14 +21,26 @@ The ultimate goal is to help organizations make informed, data-driven decisions 
 
 ## Dataset
 - 14,999 rows and 10 columns
-- Target variable: attrition (0=Stay, 1=Left)
+- Target variable: attrition (0 = Stay, 1 = Left)
 - The variables `satisfaction_level` and `last_evaluation` were excluded from modeling because they may not be consistently available in real-world HR information systems. This decision was made to improve the practicality of the model.
 
-## Tech Stack
-- 'data/' - HR dataset(synthetic, provided by GAAC capstone)
-- 'notebook/' - Google Colab notebook with full analysis
-- 'src/' - modularized ML pipeline code
-- 'artifacts/' - visualization and model outputs
+## Repository Structure
+- `data/` - HR dataset(synthetic, provided by GAAC Capstone project)
+- `notebook/` - Google Colab notebook containing full analysis
+- `src/` - Modularized machine learning pipeline code
+- `artifacts/` - visualizations and model outputs
+
+Tech Stack
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- XGBoost
+- Matplotlib
+- Seaborn
+- SHAP
+- Google Colab
+- GitHub
 
 ## Key Results
 - 
