@@ -41,8 +41,13 @@ The ultimate goal is to help organizations make informed, data-driven decisions 
 - `artifacts/` - visualizations and model outputs
 
 ## Tech Stack
-CategoryToolsData AnalysisPandas, NumPyMachine LearningScikit-learn, XGBoostVisualizationMatplotlib, Seaborn, SHAPDevelopmentPython, Google Colab, GitHub
 
+Category	Tools
+Programming	Python
+Data Analysis	Pandas, NumPy
+Machine Learning	Scikit-learn, XGBoost
+Visualization	Matplotlib, Seaborn, SHAP
+Development	Google Colab, GitHub
 
 ## Modeling Strategy: Why Recall?
 Employee attrition prediction was evaluated using a recall-focused approach.
