@@ -88,7 +88,7 @@ This scenario evaluates the potential retention impact of reducing excessive pro
 - 6 projects → 5 projects
 - 7 projects → 5 projects
 - 220+ monthly hours → 200 monthly hours
-### Reuslts
+### Results
 | Scenario   | Predicted Attrition Cases | Predicted Attrition Rate | Estimated Employees Retained |
 | ---------- | ------------------------: | -----------------------: | ---------------------------: |
 | Baseline   |                  1,993.58 |                   16.63% |                            - |
@@ -98,7 +98,7 @@ This scenario evaluates the potential retention impact of reducing excessive pro
 <img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/cde25428-6a2c-450d-9cb5-ad948b5ad6a7" />
 ### Key Takeaways
 - Reducing excessive project loads alone resulted in an estimated retention improvement of 122 employees.
-- Optimizing excessive working hours produced a substantially larger impact, with an incremal of 745 employees retained.
+- Optimizing excessive working hours produced a substantially larger impact, with an estimated retention improvement of 745 employees.
 - Combining both strategies yielded the strongest result, reducing attrition to 9.27% from 16.63% and improving retention by approximately 883 employees.
 - The overall results suggest that excessive working hours may represent the most actionable workload-related attrition driver identified by the model, while project load optimization provides additional benefit.
 
