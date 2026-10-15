@@ -41,13 +41,7 @@ The ultimate goal is to help organizations make informed, data-driven decisions 
 - `artifacts/` - visualizations and model outputs
 
 ## Tech Stack
-
-Category	Tools
-Programming	Python
-Data Analysis	Pandas, NumPy
-Machine Learning	Scikit-learn, XGBoost
-Visualization	Matplotlib, Seaborn, SHAP
-Environment	Google Colab, GitHub
+CategoryToolsData AnalysisPandas, NumPyMachine LearningScikit-learn, XGBoostVisualizationMatplotlib, Seaborn, SHAPDevelopmentPython, Google Colab, GitHub
 
 
 ## Modeling Strategy: Why Recall?
