@@ -12,7 +12,7 @@ Scenario analysis further suggested that reducing excessive working hours and pr
 ### Workflow
 1. Exploratory Data Analysis (EDA)
 2. Feature Engineering
-3. Modeling
+3. Model Comparison
 4. Model Evaluation
 5. Model Interpretation (PDP & SHAP)
 6. External Validation
