@@ -70,9 +70,14 @@ Both the internal analysis and external research consistently indicate that empl
 The analysis suggests that attrition risk increases at both extremes of employee workload. Employees working more than approximately 220 monthly hours, particularly those assigned six or more projects, represented a high-risk atrition sgement. Employees working fewer than approximately 150hours per month also exhibited elevated attrition risk. However, the underlying causes cannot be determined from the available data and may relfect factors such as disengagement, reduced utilization, or organizational workforce decisions.
 These findings indicate that workload mamagement should focus on manitaining employees within a sustainable workload range rather than simply reducing workload. Organizations may benefit from workload balancing, project assignment, capacity planning, and proactive manager check-ins for both over-utilized and under-utilized employees.
 ### Career Development Across Employee Tenure
-Attrition risk appeared to vary across different stages of employee tenure, suggesting that career-growth needs to be evolved throuout the employee lifecydle.
+Attrition risk appeared to vary across different stages of employee tenure, suggesting that career-growth needs to be evolved throuout the employee lifecycle.
 Organizations may improve retention through tenure-specific initiatives such as structured onboarding for early-tenure employee, career-path planning for mid-tenure employees, and internabl mobility, leadership development, or role expansion opportunities for longer-tenure employees.
 Together, these findings suggest that targeted retention strategies may be more effective than one-size-fits-all retention programs.
+
+## Scenario Analysis
+### Scenario A: Project Load Optimization
+### Scenario B: Working Hours Optimization
+### Sceanrio C: Cobmined Workload Strategy
 
 ## Dataset Source:
 Synthetic dataset provided by Google/Coursera GAAC
