@@ -5,7 +5,6 @@ Workload-related facotrs, including project volumne, monthly working hours, and 
 
 Scenario analysis further suggested that reducing excessive working hours and project loads could substantially lower perdicted attrition risk, with a combined workload-management strategy improving retention by an estimated 883 employees.
 
-
 ## Context
 Employee attrition remains a significant challenge for organizations across industries. Employees leave companies for various reasons, including workload, work-life balance, career opportunities, cultural mismatch, and organizational changes. 
 To better understand and manage attrition risk, this project applies machine learning techniques to:
@@ -42,16 +41,14 @@ The ultimate goal is to help organizations make informed, data-driven decisions 
 - `artifacts/` - visualizations and model outputs
 
 ## Tech Stack
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- XGBoost
-- Matplotlib
-- Seaborn
-- SHAP
-- Google Colab
-- GitHub
+
+Category	Tools
+Programming	Python
+Data Analysis	Pandas, NumPy
+Machine Learning	Scikit-learn, XGBoost
+Visualization	Matplotlib, Seaborn, SHAP
+Environment	Google Colab, GitHub
+
 
 ## Modeling Strategy: Why Recall?
 Employee attrition prediction was evaluated using a recall-focused approach.
