@@ -1,17 +1,9 @@
 ## Executive Summary
-The project developed a machine learning model to predict employee attrition and identify the primary drivers of turnover. Model interpretation, external validation, and scneario analysis indicated that employees attrition was more strongly associated with work-life balances needs and career-growth dynamics than department-level differences.
+This project developed a machine learning model to predict employee attrition and identify the primary drivers of turnover. Model interpretation, external validation, and scenario analysis indicated that employee attrition was more strongly associated with work-life balance needs and career-growth dynamics than department-level differences.
 
-Workload-related facotrs, including project volumne, monthly working hours, and workload intensity, emerged as the strongest predictors of attrition. Tenure-related variables also demonstrated meaningful predictive value, highlighting the importance of career development across different stages of the employee lifecycle.
+Workload-related factors, including project volume, monthly working hours, and workload intensity, emerged as the strongest predictors of attrition. Tenure-related variables also demonstrated meaningful predictive value, highlighting the importance of career development across different stages of the employee lifecycle.
 
-Scenario analysis further suggested that reducing excessive working hours and project loads could substantially lower perdicted attrition risk, with a combined workload-management strategy improving retention by an estimated 883 employees.
-
-## Context
-Employee attrition remains a significant challenge for organizations across industries. Employees leave companies for various reasons, including workload, work-life balance, career opportunities, cultural mismatch, and organizational changes. 
-To better understand and manage attrition risk, this project applies machine learning techniques to:
-1. Predict employee attrition
-2. Identify key drivers of turnover
-3. Generate actionable insights for workforce optimization and retention strategies
-The ultimate goal is to help organizations make informed, data-driven decisions to improve employee retention and workforce planning.
+Scenario analysis further suggested that reducing excessive working hours and project loads could substantially lower predicted attrition risk, with a combined workload-management strategy improving retention by an estimated 883 employees.
 
 ## Project Overview
 - Predict employee attrition using machine learning models
