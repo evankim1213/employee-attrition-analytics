@@ -1,3 +1,6 @@
+# Employee Attrition Analytics
+Predicting employee attrition and identifying actionable retention strategies using machine learning, model interpretation, external validation, and scenario analysis.
+
 ## Executive Summary
 This project developed a machine learning model to predict employee attrition and identify the primary drivers of turnover. Model interpretation, external validation, and scenario analysis indicated that employee attrition was more strongly associated with work-life balance needs and career-growth dynamics than department-level differences.
 
