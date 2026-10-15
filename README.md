@@ -15,12 +15,13 @@ The ultimate goal is to help organizations make informed, data-driven decisions 
 2. Feature Engineering
 3. Modeling
 4. Model Evaluation
-5. Model Interpretation(PDP&SHAP)
+5. Model Interpretation (PDP&SHAP)
 6. Business Insights
 7. External Validation
 
 ## Dataset
-- 14,999 rows and 10 columns
+- Original dataset: 14,999 rows and 10 columns
+- Final modeling dataset: 11,991 rows after duplicate removal
 - Target variable: attrition (0 = Stay, 1 = Left)
 - The variables `satisfaction_level` and `last_evaluation` were excluded from modeling because they may not be consistently available in real-world HR information systems. This decision was made to improve the practicality of the model.
 - The variable 'work_accident' was also excluded as exploratory analysis suggested limited predictive value and no meaningful relationship with attrition.
@@ -50,8 +51,8 @@ Given these opportunity costs, recall was selected as the primary evaluation met
 
 ## Key Results
 #### Employee attrition was primarily associated with work-life balance needs and career-growth dynamics rather than department-level differences.
-- Work-life balance emerged as the strongest driver of employee attrition, supported by workload-related factors such as project volume, monthly working hours, and the engineered feature `workload_intensity'.
-- Career growth and employee lifecycle effects were also associated with attrtion risk, with tenure-related variables consistently demonstrating predictive value across analyses.
+- Work-life balance emerged as the strongest driver of employee attrition, supported by workload-related factors such as project volume, monthly working hours, and the engineered feature `workload_intensity`.
+- Career growth and employee lifecycle effects were also associated with attrition risk, with tenure-related variables consistently demonstrating predictive value across analyses.
 - Employee-level factors showed stronger relationships with attrition than department-level characteristics.
 
 ## External Validation
@@ -67,11 +68,11 @@ Both the internal analysis and external research consistently indicate that empl
 
 ## Actionable Insights
 ### Workload Management
-The analysis suggests that attrition risk increases at both extremes of employee workload. Employees working more than approximately 220 monthly hours, particularly those assigned six or more projects, represented a high-risk atrition sgement. Employees working fewer than approximately 150hours per month also exhibited elevated attrition risk. However, the underlying causes cannot be determined from the available data and may relfect factors such as disengagement, reduced utilization, or organizational workforce decisions.
-These findings indicate that workload mamagement should focus on manitaining employees within a sustainable workload range rather than simply reducing workload. Organizations may benefit from workload balancing, project assignment, capacity planning, and proactive manager check-ins for both over-utilized and under-utilized employees.
+The analysis suggests that attrition risk increases at both extremes of employee workload. Employees working more than approximately 220 monthly hours, particularly those assigned six or more projects, represented a high-risk atrition segment. Employees working fewer than approximately 150 hours per month also exhibited elevated attrition risk. However, the underlying causes cannot be determined from the available data and may reflect factors such as disengagement, reduced utilization, or organizational workforce decisions.
+These findings indicate that workload management should focus on maintaining employees within a sustainable workload range rather than simply reducing workload. Organizations may benefit from workload balancing, project assignment, capacity planning, and proactive manager check-ins for both over-utilized and under-utilized employees.
 ### Career Development Across Employee Tenure
-Attrition risk appeared to vary across different stages of employee tenure, suggesting that career-growth needs to be evolved throuout the employee lifecycle.
-Organizations may improve retention through tenure-specific initiatives such as structured onboarding for early-tenure employee, career-path planning for mid-tenure employees, and internabl mobility, leadership development, or role expansion opportunities for longer-tenure employees.
+Attrition risk appeared to vary across different stages of employee tenure, suggesting that career-growth needs evolve througout the employee lifecycle.
+Organizations may improve retention through tenure-specific initiatives such as structured onboarding for early-tenure employees, career-path planning for mid-tenure employees, and internal mobility, leadership development, or role expansion opportunities for longer-tenure employees.
 Together, these findings suggest that targeted retention strategies may be more effective than one-size-fits-all retention programs.
 
 ## Scenario Analysis
@@ -89,7 +90,7 @@ This scenario evaluates the potential retention impact of reducing excessive pro
 - 7 projects → 5 projects
 - 220+ monthly hours → 200 monthly hours
 ### Results
-| Scenario   | Predicted Attrition Cases | Predicted Attrition Rate | Estimated Employees Retained |
+| Scenario   | Expected Attrition Cases | Expected Attrition Rate | Estimated Employees Retained |
 | ---------- | ------------------------: | -----------------------: | ---------------------------: |
 | Baseline   |                  1,993.58 |                   16.63% |                            - |
 | Scenario A |                  1,871.09 |                   15.60% |                          122 |
