@@ -75,14 +75,28 @@ Organizations may improve retention through tenure-specific initiatives such as 
 Together, these findings suggest that targeted retention strategies may be more effective than one-size-fits-all retention programs.
 
 ## Scenario Analysis
-The following sceanarios were simulated by modifying workload-related risk factors and re-scoring employees using the trained Random Forest model.
+To evaluate the potential impact of targeted retention initiatives, three workload-management scenarios were simulated by modifying identified high-risk conditions and re-scoring employees using the trained Random Forest model.
 ### Scenario A: Project Load Optimization
 This scenario evaluates the potential retention impact of reducing excessive project loads among employees assigned with six or more projects.
-Optimization Assumption:
-- 6 projects -> 5 projects
-- 7 projects -> 5 projects
+- 6 projects → 5 projects
+- 7 projects → 5 projects
 ### Scenario B: Working Hours Optimization
-### Sceanrio C: Cobmined Workload Strategy
+This scenario evaluates the potential retention impact of reducing excessive working hours among employees working more than 220hours per month.
+- 220+ monthly hours → 200 monthly hours
+### Scenario C: Combined Workload Strategy
+This scenario evaluates the potential retention impact of reducing excessive project loadns and working hours among high-risk workload segments.
+- 6 projects → 5 projects
+- 7 projects → 5 projects
+- 220+ monthly hours → 200 monthly hours
+### Reults
+| Scenario   | Predicted Attrition Cases | Predicted Attrition Rate | Estimated Employees Retained |
+| ---------- | ------------------------: | -----------------------: | ---------------------------: |
+| Baseline   |                  1,993.58 |                   16.63% |                            - |
+| Scenario A |                  1,871.09 |                   15.60% |                          122 |
+| Scenario B |                  1,248.52 |                   10.41% |                          745 |
+| Scenario C |                  1,111.02 |                    9.27% |                          883 |
+
+
 
 ## Dataset Source:
 Synthetic dataset provided by Google/Coursera GAAC
