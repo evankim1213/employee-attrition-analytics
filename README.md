@@ -75,7 +75,12 @@ Organizations may improve retention through tenure-specific initiatives such as 
 Together, these findings suggest that targeted retention strategies may be more effective than one-size-fits-all retention programs.
 
 ## Scenario Analysis
+The following sceanarios were simulated by modifying workload-related risk factors and re-scoring employees using the trained Random Forest model.
 ### Scenario A: Project Load Optimization
+This scenario evaluates the potential retention impact of reducing excessive project loads among employees assigned with six or more projects.
+Optimization Assumption:
+- 6 projects -> 5 projects
+- 7 projects -> 5 projects
 ### Scenario B: Working Hours Optimization
 ### Sceanrio C: Cobmined Workload Strategy
 
