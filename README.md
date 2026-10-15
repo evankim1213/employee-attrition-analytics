@@ -55,14 +55,24 @@ Given these opportunity costs, recall was selected as the primary evaluation met
 - Employee-level factors showed stronger relationships with attrition than department-level characteristics.
 
 ## External Validation
-#### Although there might be some limitation due to sample dataset, both the internal analysis and external research suggest that employee attrition is more closely associated with work-life balance needs and career-growth dynamics than with department-level differences.
+### Workload and Employee Attrition
+Workload-related variables (`workload_intensity`, `number_project`, and `average_monthly_hours`) emerged as the strongest predictors of employee attrition in this project.
+External studies similarly found that excessive workload and work stress increase employee turnover intention through elevated burnout levels. Employees experiencing higher workload and burnout were consistently more likely to consider leaving their organizations. 【1-35793b】【2-0e3096】
+### Career Growth and Employee Attrition
+Tenure-related variables also demonstrated meaningful predictive value throughout the analysis, suggesting that attrition risk may vary across different stages of an employee's career lifecycle.
+Research on career plateau suggests that employees who perceive limited growth or advancement opportunities are more likely to experience lower engagement, higher burnout, and stronger turnover intention. 【3-7d7d7d】【4-c91f3e】【5-53a32d】
+This interpretation is also supported by McKinsey research, which found that 41% of employees cited a lack of career development and advancement as a reason for leaving a previous employer. 【6-12b915】【6-f119ab】
+### Validation Summary
+Both the internal analysis and external research consistently indicate that employee attrition is closely associated with workload-related pressures and career-growth dynamics across different stages of employee tenure.
 
-
-## Business Impact
-- Influences to increase overall performance of company P&L through labor efficiency
-- Provides actionable insights for HR decision-making
-- Helps reduce attrition-related costs
-- Enables proactive workforce planning and guideline development
+## Actionable Insights
+### Workload Management
+The analysis suggests that attrition risk increases at both extremes of employee workload. Employees working more than approximately 220 monthly hours, particularly thos assigned six or more projects, represented a high-risk atrition sgement. Employees working fewer than approximately 150hours per month also exhibited elevated attrition risk. However, the underlying causes cannot be determined from the available data and may relfect factors such as disengagement, reduced utilization, or organizational workforce decisions.
+These findings indicate that workload mamagement should focus on manitaining employees within a sustainable workload range rather than simply reducing workload. Organizations may benefit from workload balancing, project assignment, capacity planning, and proactive manager check-ins for both over-utilized and under-utilized employees.
+### Career Development Across Employee Tenure
+Attrition risk appeared to vary across different stages of employee tenure, suggesting that career-growth needs to be evolved throuout the employee lifecydle.
+Organizations may improve retention through tenure-specific initiatives such as structured onboarding for early-tenure employee, career-path planning for mid-tenure employees, and internabl mobility, leadership development, or role expansion opportunities for longer-tenure employees.
+Together, these findings suggest that targeted retention strategies may be more effective than one-size-fits-all retention programs.
 
 ## Dataset Source:
 Synthetic dataset provided by Google/Coursera GAAC
