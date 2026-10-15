@@ -49,10 +49,14 @@ From a business perspective, failing to identify an employee who is likely to le
 Given these opportunity costs, recall was selected as the primary evaluation metric while comparing model performance.
 
 ## Key Results
-### Employee attrition was primarily associated with work-life balance needs and career-growth dynamics rather than department-level differences.
+#### Employee attrition was primarily associated with work-life balance needs and career-growth dynamics rather than department-level differences.
 - Work-life balance emerged as the strongest driver of employee attrition, supported by workload-related factors such as project volume, monthly working hours, and the engineered feature `workload_intensity'.
 - Career growth and employee lifecycle effects were also associated with attrtion risk, with tenure-related variables consistently demonstrating predictive value across analyses.
 - Employee-level factors showed stronger relationships with attrition than department-level characteristics.
+
+## External Validation
+#### Although there might be some limitation due to sample dataset, both the internal analysis and external research suggest that employee attrition is more closely associated with work-life balance needs and career-growth dynamics than with department-level differences.
+
 
 ## Business Impact
 - Influences to increase overall performance of company P&L through labor efficiency
