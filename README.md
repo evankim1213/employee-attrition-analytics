@@ -103,5 +103,10 @@ This scenario evaluates the potential retention impact of reducing excessive pro
 - Combining both strategies yielded the strongest result, reducing attrition to 9.27% from 16.63% and improving retention by approximately 883 employees.
 - The overall results suggest that excessive working hours may represent the most actionable workload-related attrition driver identified by the model, while project load optimization provides additional benefit.
 
-## Dataset Source:
-Synthetic dataset provided by Google/Coursera GAAC
+## References
+### Dataset
+- Google Advanced Data Analytics (GAAC), Coursera
+### External Validation
+- McKinsey & Company (2023). The Future of Career Development: A Leader's Guide.
+- Bai et al. (2023). Career Plateau, Burnout, Work Engagement, and Turnover Intention.
+- Polat et al. (2025). Hierarchical Career Plateau and Turnover Intention.
