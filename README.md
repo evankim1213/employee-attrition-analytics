@@ -1,3 +1,11 @@
+## Executive Summary
+The project developed a machine learning model to predict employee attrition and identify the primary drivers of turnover. Model interpretation, external validation, and scneario analysis indicated that employees attrition was more strongly associated with work-life balances needs and career-growth dynamics than department-level differences.
+
+Workload-related facotrs, including project volumne, monthly working hours, and workload intensity, emerged as the strongest predictors of attrition. Tenure-related variables also demonstrated meaningful predictive value, highlighting the importance of career development across different stages of the employee lifecycle.
+
+Scenario analysis further suggested that reducing excessive working hours and project loads could substantially lower perdicted attrition risk, with a combined workload-management strategy improving retention by an estimated 883 employees.
+
+
 ## Context
 Employee attrition remains a significant challenge for organizations across industries. Employees leave companies for various reasons, including workload, work-life balance, career opportunities, cultural mismatch, and organizational changes. 
 To better understand and manage attrition risk, this project applies machine learning techniques to:
@@ -11,23 +19,24 @@ The ultimate goal is to help organizations make informed, data-driven decisions 
 - Identify key drivers of employee attrition
 - Provide actionable insights for workforce optimization strategies
 ### Workflow
-1. Exploratory Data Analysis(EDA)
+1. Exploratory Data Analysis (EDA)
 2. Feature Engineering
 3. Modeling
 4. Model Evaluation
-5. Model Interpretation (PDP&SHAP)
-6. Business Insights
-7. External Validation
+5. Model Interpretation (PDP & SHAP)
+6. External Validation
+7. Actionable Insights
+8. Scenario Analysis
 
 ## Dataset
 - Original dataset: 14,999 rows and 10 columns
 - Final modeling dataset: 11,991 rows after duplicate removal
-- Target variable: attrition (0 = Stay, 1 = Left)
+- Target variable: `left` (0 = Stay, 1 = Left)
 - The variables `satisfaction_level` and `last_evaluation` were excluded from modeling because they may not be consistently available in real-world HR information systems. This decision was made to improve the practicality of the model.
-- The variable 'work_accident' was also excluded as exploratory analysis suggested limited predictive value and no meaningful relationship with attrition.
+- The variable `work_accident` was also excluded as exploratory analysis suggested limited predictive value and no meaningful relationship with attrition.
 
 ## Repository Structure
-- `data/` - HR dataset(synthetic, provided by GAAC Capstone project)
+- `data/` - Synthetic HR dataset provided through the GAAC Capstone project
 - `notebook/` - Google Colab notebook containing full analysis
 - `src/` - Modularized machine learning pipeline code
 - `artifacts/` - visualizations and model outputs
@@ -68,10 +77,10 @@ Both the internal analysis and external research consistently indicate that empl
 
 ## Actionable Insights
 ### Workload Management
-The analysis suggests that attrition risk increases at both extremes of employee workload. Employees working more than approximately 220 monthly hours, particularly those assigned six or more projects, represented a high-risk atrition segment. Employees working fewer than approximately 150 hours per month also exhibited elevated attrition risk. However, the underlying causes cannot be determined from the available data and may reflect factors such as disengagement, reduced utilization, or organizational workforce decisions.
+The analysis suggests that attrition risk increases at both extremes of employee workload. Employees working more than approximately 220 monthly hours, particularly those assigned six or more projects, represented a high-risk attrition segment. Employees working fewer than approximately 150 hours per month also exhibited elevated attrition risk. However, the underlying causes cannot be determined from the available data and may reflect factors such as disengagement, reduced utilization, or organizational workforce decisions.
 These findings indicate that workload management should focus on maintaining employees within a sustainable workload range rather than simply reducing workload. Organizations may benefit from workload balancing, project assignment, capacity planning, and proactive manager check-ins for both over-utilized and under-utilized employees.
 ### Career Development Across Employee Tenure
-Attrition risk appeared to vary across different stages of employee tenure, suggesting that career-growth needs evolve througout the employee lifecycle.
+Attrition risk appeared to vary across different stages of employee tenure, suggesting that career-growth needs evolve throughout the employee lifecycle.
 Organizations may improve retention through tenure-specific initiatives such as structured onboarding for early-tenure employees, career-path planning for mid-tenure employees, and internal mobility, leadership development, or role expansion opportunities for longer-tenure employees.
 Together, these findings suggest that targeted retention strategies may be more effective than one-size-fits-all retention programs.
 
@@ -101,13 +110,13 @@ This scenario evaluates the potential retention impact of reducing excessive pro
 ### Key Takeaways
 - Reducing excessive project loads alone resulted in an estimated retention improvement of 122 employees.
 - Optimizing excessive working hours produced a substantially larger impact, with an estimated retention improvement of 745 employees.
-- Combining both strategies yielded the strongest result, reducing attrition to 9.27% from 16.63% and improving retention by approximately 883 employees.
+- Combining both strategies yielded the strongest result, reducing the expected attrition rate from 16.63% to 9.27% while improving retention by approximately 883 employees.
 - The overall results suggest that excessive working hours may represent the most actionable workload-related attrition driver identified by the model, while project load optimization provides additional benefit.
 
 ## References
-### Dataset
+### Dataset Source
 - Google Advanced Data Analytics (GAAC), Coursera
-### External Validation
+### External Validation Sources
 - McKinsey & Company (2023). The Future of Career Development: A Leader's Guide.
 - Bai et al. (2023). Career Plateau, Burnout, Work Engagement, and Turnover Intention.
 - Polat et al. (2025). Hierarchical Career Plateau and Turnover Intention.
